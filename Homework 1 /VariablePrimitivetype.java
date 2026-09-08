@@ -9,7 +9,7 @@ public class VariablePrimitivetype { //step 1: Created the VariablePrimitivetype
         boolean student = true; //step 7: declared the variable student as a boolean variable and set it to the value true
         int Numberofclasses = 6;//step 8: declared the variable Numberofclasses as an integer variable and set it to the value 6.
 
-        System.out.println("Age: " + Age); //step 9: printed the Age label and the value stored in age
+        System.out.println("Age: " + Age); //step 9: printed the Age label and the value stored in Age
         System.out.println("Height: " + height);//step 10: printed the Height label and the value stored in height
         System.out.println("Grade: " + grade);//step 11: printed the Grade label and the value stored in grade
         System.out.println("Weight: " + weight); //step 12: printed Weight label and the value stored in weight
