@@ -20,7 +20,7 @@ public class ProblemFour {
         char sep;
         sep = input.next().charAt(0);
         if (sep == '+'){
-            System.out.println(firstword + " + " + secondword);
+            System.out.println(firstword + "+" + secondword);
         
 
 
@@ -28,13 +28,13 @@ public class ProblemFour {
 
         }
         else if (sep == '-'){
-            System.out.println(firstword + " - " + secondword);
+            System.out.println(firstword + "-" + secondword);
 
 
 
         } 
         else if (sep == '*'){
-            System.out.println(firstword + " * " + secondword);
+            System.out.println(firstword + "*" + secondword);
         }
         else{
             System.out.println("Not valid separater.");
