@@ -28,7 +28,7 @@ public class ProblemFour {
 
         }
         else if (sep == '-'){
-            System.out.println(firstword + "-" + secondword);
+            System.out.println(firstword + " - " + secondword);
 
 
 
