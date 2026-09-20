@@ -1,5 +1,7 @@
 
 
+
+
 public class ProblemOneWhileLoop {
     public static void main(String[] args){
 
