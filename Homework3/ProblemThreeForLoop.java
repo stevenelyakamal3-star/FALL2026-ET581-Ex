@@ -36,7 +36,7 @@ public class ProblemThreeForLoop {
 
         System.out.println("Output: " + result);
 
-
+        input.close();
 
 
 
