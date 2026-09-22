@@ -8,25 +8,46 @@ public class StudyingMaterial {
         System.out.println("Input: ");
         Scanner input = new Scanner(System.in);
         String word;
-        word = input.nextLine().toUpperCase();
+        word = input.nextLine();
+        boolean onlylowercase = true;
+        boolean isdecreasing = true;
+        for(int i = 0; i<word.length(); i++){
+           
+           if(!Character.isLowerCase(word.charAt(i)))
+            onlylowercase = false;
+           
+           
+           
+           
+            if (i<word.length()-1){
+                if (word.charAt(i)<= word.charAt(i+1)){
 
-        int position = 0;
+                    isdecreasing = false;
 
-        String result ="";
-        while(position<word.length()){
-            char currentcharacter = word.charAt(position);
-            int alphabetposition = currentcharacter - 'A';
-            int newposition = alphabetposition - 2;
-            if (newposition <0){
-                newposition = newposition + 26;
+                }
+
+
+
+
+
             }
-            char newcharacter = (char)('A'+newposition);
-            result = result + newcharacter;
-            position++;
+
 
 
         }
-        System.out.println("Output: " + result);
+        if (!onlylowercase){
+            System.out.println("Invalid");
+
+
+        }
+        else if (isdecreasing){
+            System.out.println("Decreasing order");
+
+        }
+        else{
+            System.out.println("Not decreasing order");
+        }
+        
 
 
         
