@@ -1,54 +1,22 @@
 
-import java.util.Scanner;
+
 
 public class StudyingMaterial {
 
     public static void main(String args []){
 
-        System.out.println("Input: ");
-        Scanner input = new Scanner(System.in);
-        String word;
-        word = input.nextLine();
-        boolean onlylowercase = true;
-        boolean isdecreasing = true;
-        for(int i = 0; i<word.length(); i++){
-           
-           if(!Character.isLowerCase(word.charAt(i)))
-            onlylowercase = false;
-           
-           
-           
-           
-            if (i<word.length()-1){
-                if (word.charAt(i)<= word.charAt(i+1)){
-
-                    isdecreasing = false;
-
-                }
-
-
-
-
+        int count =0;
+        for(int i =1; i<11; i++){
+            if(count%2==0){
+                System.out.println(i);
 
             }
-
-
-
-        }
-        if (!onlylowercase){
-            System.out.println("Invalid");
-
-
-        }
-        else if (isdecreasing){
-            System.out.println("Decreasing order");
-
-        }
-        else{
-            System.out.println("Not decreasing order");
+            count++;
         }
         
 
+        
+
 
         
         
@@ -58,7 +26,7 @@ public class StudyingMaterial {
         
         
         
-        input.close();
+        
 
 
 

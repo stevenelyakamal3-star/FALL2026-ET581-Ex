@@ -12,7 +12,7 @@ public class ProblemFourWhileLoop {
         String word;
         word = input.nextLine();
 
-        int i = 0;
+        int i = 0;// in here we are declaring i as a counter for the while loop to initiate setting the counter to be less than the word.lenght() which is the length of the word in order to get the characters and compare them together afterwards inside the loop
         boolean foundduplicate = false;
         while(i < word.length() -1){
             if (word.charAt(i) == word.charAt(i+1)){
