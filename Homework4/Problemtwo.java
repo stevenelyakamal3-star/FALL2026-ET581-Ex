@@ -1,8 +1,6 @@
 
 import java.util.Scanner;
 
-
-
 public class Problemtwo {
     public static void main(String[] args){
         System.out.println("Enter a character: ");
@@ -19,11 +17,9 @@ public class Problemtwo {
 
             }
             System.out.println();
-    
-    
         }
 
         input.close();
     }
-    
+
 }
