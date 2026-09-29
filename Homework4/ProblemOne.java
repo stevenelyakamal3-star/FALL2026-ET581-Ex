@@ -1,5 +1,3 @@
-
-
 public class ProblemOne {
     public static void print(){
         int n = (int)(Math.random()*10);
@@ -7,7 +5,6 @@ public class ProblemOne {
     }
     public static void print(int count){
         for (int i = 0; i<count; i++){
-
              int n = (int)(Math.random()*10);
              System.out.print(" " +n+ " ");
         }
@@ -21,12 +18,10 @@ public class ProblemOne {
             System.out.println();
         }
     }
-public static void main(String[] args){
+    public static void main(String[] args){
         print();
         print(5);
         System.out.println();
         print(4,3);
-
-
-    }
+     }
 }
