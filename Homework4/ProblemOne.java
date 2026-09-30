@@ -1,6 +1,6 @@
 public class ProblemOne {
     public static void print(){
-        int n = (int)(Math.random()*10);
+        int n = (int)(Math.random()*10); // declared n as an integer variable and assigned it a random value between 0 and 9.
         System.out.println(" " +n); 
     }
     public static void print(int count){
