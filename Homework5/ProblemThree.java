@@ -19,7 +19,7 @@ public class ProblemThree {
         return min;
     }
     public static void main(String[] args){
-        System.out.println("Enter the size of an array: ");
+        System.out.println("Enter array size: ");
         Scanner input = new Scanner(System.in);
         int size = input.nextInt();
         int[] numbers = new int[size];
