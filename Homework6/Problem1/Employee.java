@@ -2,11 +2,13 @@ public class Employee {
     private int id;
     private String name;
     private double salary;
+    private static int totalEmployees;
     
     Employee(int i, String n, double s){
         this.id = i;
         this.name = n;
         this.salary = s;
+        totalEmployees++;
     }
     public int getID(){
         return id;
@@ -37,4 +39,7 @@ public class Employee {
             return false;
         }    
     } 
+    public static void printTotalEmployees(){
+        System.out.println("Total employees: " + totalEmployees);
+    }
 }

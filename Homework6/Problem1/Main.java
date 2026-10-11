@@ -10,5 +10,7 @@ public class Main {
         Employee e4 = new Employee(101, "David", 7000.0);
         System.out.println("\nTesting equals():");
         System.out.println(e1.equals(e4));
-     }
+        System.out.println("\nTotal Employees: ");
+        Employee.printTotalEmployees();
+        }
 }
