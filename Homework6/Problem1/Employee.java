@@ -28,6 +28,13 @@ public class Employee {
     }
     public String toString(){
         return "ID: " + this.id + ", " + "Name: " + this.name + ", " + "Salary: " + this.salary;
-         
     }
+    public boolean equals(Employee e){
+        if (id == e.id){
+            return true;
+        }
+        else{
+            return false;
+        }    
+    } 
 }
