@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EvenOddTernary {
+public class EvenOddTernaryReview {
     public static void main(String[] args){
         System.out.println("Enter a number: ");
         Scanner input = new Scanner(System.in);
